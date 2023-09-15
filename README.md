@@ -155,3 +155,11 @@ After all milestones are complete, you will have a collection of microservices a
 1. Using asynchronous communication patterns across independent services and consumers
 1. Handling situations when events can’t be processed
 1. Evaluating performance of the system through the lens of the business by defining and publishing KPIs 
+
+# useful-links
+1. https://nordicapis.com/using-api-analytics-to-empower-the-platform/
+2. https://api-umbrella.readthedocs.io/en/latest/getting-started.html
+3. https://github.com/ddosify/alaz?ea-publisher=readthedocs
+4. https://microservices.io/patterns/communication-style/idempotent-consumer.html
+5. https://kafka.apache.org/documentation/#producerconfigs_enable.idempotence
+6. https://lankydan.dev/running-kafka-locally-with-docker
