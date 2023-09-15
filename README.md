@@ -1,7 +1,22 @@
-# Overview of Order Fulfillemnt Implementation 
+# Overview of Order Fulfillment Implementation 
 
-# What Was Created?
-In this milestone:
+# Techniques employed
+
+* Build a microservice.
+* Build an event publisher.
+* Build multiple event consumers.
+
+# Project outline
+
+1. Kafka Basics Using the Command Line
+1. Build a Basic Microservice and Kafka Event Publisher
+1. Build an Order Service and Publish a First Event
+1. Build an Inventory Consumer That Handles Order Received Events
+1. Build Notification, Warehouse, and Shipper Consumers
+1. Define and Use KPIs To Evaluate System Performance
+
+---
+
 1. two KPIs were defined and published to two new Kafka topics
     1. A [Metric](./metrics/order_count.go) that tracks each time an order is placed and how many products were ordered is defined to expose information which could be used to answer things like:
         * how the system is performing (i.e. 0 orders in an hour might be indicative of a larger problem)
